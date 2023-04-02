@@ -1,0 +1,99 @@
+
+.container-fluid {
+
+  background-color: #565252;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+
+}
+
+.principal {
+    background-image: url("./Imagenes/Central/imagenCentral.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    height: 400px;
+    padding-top: 3%;
+  }
+
+  .presentacion {
+    
+    float: right;
+    padding-right: 5%;
+    color: white;
+    text-align: center; /*con esto el boton queda centrado.*/
+    
+  }
+  
+  .card-title {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 35px;
+
+  }
+  .card-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-align: justify;
+  }
+
+.productos {
+    background-color: #565252;
+    color: #d3ab8b;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.productos h2 {
+    margin-bottom: 0;
+}
+
+.producto .card-body {
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding: 5%;
+
+}
+
+.producto .card-title {
+  background-color: transparent;
+  color: #d3ab8b;
+
+}
+
+.producto .card-text {
+  background-color: transparent;
+  color: white
+  
+}
+
+
+.producto .usandoimagen .card-body {
+  background: transparent;
+  align-items: center;
+  height: 200px;
+  
+}
+
+.producto .usandoimagen .card-text {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  
+}
+
+
+
+.producto .usandoimagen h5 {
+  background-color: transparent;
+  color: white
+
+}
+
+
+  
+  
